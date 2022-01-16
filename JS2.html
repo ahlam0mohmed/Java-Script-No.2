@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="d1">
+        <img class="imag" id="imgh" src="img/hi.gif">
+
+    </div>
+    <div class="d2">
+        <img id="ch1" class="ch1" src="img/ch.png">
+        <img id="ch2" class="ch2" src="img/img.jpg">
+        <button class="bt" id="btc" type="button"
+         onclick="document.getElementById('ch1').src=bim2 ,
+         document.getElementById('ch2').src=bim1">
+         cilck for change mode</button>
+        
+    </div>
+    <div class="d3">
+        <form>
+            <input type="text"  id="tex" class="tex">
+            <marquee  id="la">Enter Name Please</marquee>
+            <button type="button" 
+             onclick="if(document.getElementById('tex')=='')
+            {document.getElementById('la').innerText ='The Name is Invaild'}";>
+            check</button>
+            
+        </form>
+    </div>
+    <button class="lev" id="bulev" type="button"
+         onclick="document.getElementById('imgb').src='img/bye.gif'">
+         Befor leaving cilck here</button>
+    <div class="d4">
+        <img class="imgb" id="imgb" src="">
+        
+    </div>
+    
+</body>
+<script>
+    var bim1 =document.getElementById('ch1').src;
+    var bim2 =document.getElementById('ch2').src;
+    
+    alert('Hello Java Script');
+    
+    
+  
+</script>
+</html>

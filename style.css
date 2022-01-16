@@ -1,0 +1,71 @@
+body{
+    background-color: tomato;
+    text-align: center;
+}
+
+.d1{
+    display: block;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.d2{
+    width: 60%;
+    margin: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+}
+.d2 .ch1{
+    background-color: black;
+    border-radius: 0%;
+    width: 20%;
+    height: 20%;
+    
+}
+.d2 .ch2{
+    border-radius: 50%;
+    width: 30%;
+    width: 20%;
+    height: 20%;
+}
+.d2 .bt{
+    border-radius: 10%;
+    margin: 5%;
+    box-sizing: border-box;
+    width: 60%;
+    box-shadow: 5px 5px gray;
+}
+.d3{
+    margin: 20px;
+    background-color: black;
+    border-radius: 30%;
+    display: flex;
+    padding: 25%;
+    color: white;
+}
+.d3 form{
+    box-shadow: 3px 3px gray;
+    border: 1px solid grey;
+    padding: 25%;
+}
+.tex{
+    display: block;
+    border-radius: 50px;
+    margin: 10px;
+
+}
+.d3 form marquee{
+    direction: left;
+    width: 100%;
+    color: red;
+}
+.lev{
+    border-radius: 30%;
+    background-color: yellow;
+    font-weight:bolder;
+    font-size: 30px;
+}
+.d4 .imgb{
+    width: 50%;
+
+}
